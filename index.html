@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz For Cars</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="start-screen">
+        <div class="logo">QUIZ FOR CARS</div>
+        <div class="result"></div>
+        <div class="start-button">START</div>
+        <div class="button-settings">
+            <div class="settings-icon"></div>
+        </div>
+    </div>
+
+    <div class="settings-screen">
+        <div class="settings">
+            <h1>Settings</h1>
+            <button id="timerButton">Timer: 5 minutes</button>
+            <button id="difficultyButton">Difficult </button>
+            <button id="volumeButton">Volume: 50%</button>
+
+        </div>
+        <button id="exitButtonTopLeft" class="exit-button">←</button>
+        <button id="nextScreenButton">→</button>
+    </div>
+
+    <div class="develop-screen">
+        <div class="develop">
+            <h1>Розробники:</h1>
+            <div>Михайло Гречка</div>
+            <div>Адріан Грицай</div>
+            <div>Данило Франецький</div>
+            <div>Роман Штангрет</div>
+            <div>Команда: StandZhyvchik</div>
+        </div>    
+        <button id="exitButtonTopLeft2" class="exit-button">←</button>
+        <!--<button id="nextScreenButton2">→</button>-->
+    </div>
+      <div class="timer">
+        <span id="seconds">0</span>
+    </div>
+    <div class="game-screen">
+
+        <div class="question">
+            10 + 10
+        </div>
+
+        <div class="answers">
+            <div class="answer-button">21</div>
+            <div class="answer-button">22</div>
+            <div class="answer-button">20</div>
+            <div class="answer-button">24</div>
+            <div class="answer-button">26</div>
+        </div>
+        
+        <div class="skip-btn">Skip</div>
+    </div>
+    <script src='https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js'></script>
+    <script src="js/script.js"></script>
+   
+</body>
+
+</html>
+
